@@ -1,12 +1,12 @@
 //Set map
 
 function initialize() {
-    let mapOptions ={
+    let mapOptions = {
         //Zoom of map of start 
-        zoom:10%;
+        zoom: 10 %;
         //Initial center cordinates on start(NewYork)
-        center:new google.maps.LatLng(40.7128, -74.0060),
-        //TYpe of map (ROADMAP, SATELLITE, hybrid, terrain)
+        center: new google.maps.LatLng(40.7128, -74.0060),
+        //Type of map (ROADMAP, SATELLITE, hybrid, terrain)
         mapTypeID: google.maps.MapTypeId.ROADMAP,
         //Minium zoom of map
         minZoom: 2
@@ -24,9 +24,11 @@ function initialize() {
         //Attach the marer
         map: map,
         //Tooltip on hover
-        title:"Iran, Zanjan"
+        title: "Iran, Zanjan"
     });
+
+
 }
 
 //Initialize the map when windows loading finished
-google.maps.event.addDomListener(window, 'load',initialize);
+google.maps.event.addDomListener(window, 'load', initialize);
