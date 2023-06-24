@@ -14,7 +14,7 @@ The marker is represented by an icon and appears as a visual indicator on the ma
 
 ## Demo
 
-You can try out Google Maps by visiting the [live demo](https://malibucalculator.netlify.app/).
+You can try out Google Maps by visiting the [live demo](https://amazingooglemaps.netlify.app/).
 
 ## Getting Started
 
