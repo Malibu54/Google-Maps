@@ -26,14 +26,14 @@ To run the calculator locally, follow these steps:
 
 ## Usage
 
-// Create a marker for a specific location
+// Create a marker for a specific location <br>
 const marker = new google.maps.Marker({
     position: new google.maps.LatLng(36.6769, 48.4963),
     map: map,
     title: "Iran, Zanjan"
 });
 
-// Add click event listener to the marker
+// Add click event listener to the marker<br>
 marker.addListener("click", function() {
     infoWindow.setContent(marker.title);
     infoWindow.open(map, marker);
