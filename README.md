@@ -20,7 +20,7 @@ You can try out Google Maps by visiting the [live demo](https://malibucalculator
 
 To run the calculator locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Malibu54/Calculator.git`
+1. Clone the repository: `git clonehttps://github.com/Malibu54/Google-Maps.git`
 2. Open the project folder.
 3. Open the `index.html` file in a web browser.
 
