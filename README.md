@@ -1,4 +1,4 @@
-# Calculator
+# Google-Maps
 
 This is a simple Google Maps web application built with HTML, CSS, and JavaScript. It allows users to add a marker to the map, which displays an info window when clicked. This feature provides additional information about a specific location on the map. <br>
 ![Calculator Screenshot](/img/Maps.png)
