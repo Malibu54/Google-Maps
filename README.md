@@ -5,7 +5,7 @@ This is a simple Google Maps web application built with HTML, CSS, and JavaScrip
 
 ## Features
 
-- When the map loads, a marker is placed on the map at a predefined location, in this case, "Argentina, Zanjan.Buenos Aires
+- When the map loads, a marker is placed on the map at a predefined location, in this case, "Argentina,Buenos Aires
 The marker is represented by an icon and appears as a visual indicator on the map.
 - When a user clicks on the marker, an info window pops up, displaying the location name, in this case, "Argentina, Buenos Aires."
 - The info window provides additional details or context about the location.
