@@ -4,8 +4,8 @@ function initialize() {
   let mapOptions = {
     //Zoom of map of start
     zoom: 10,
-    //Initial center cordinates on start(NewYork)
-    center: new google.maps.LatLng(40.7128, -74.006),
+    //Initial center cordinates on start(Buenos Aires)
+    center: new google.maps.LatLng(-34.6037, -58.3816),
     //Type of map (ROADMAP, SATELLITE, hybrid, terrain)
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     //Minium zoom of map
@@ -19,14 +19,14 @@ function initialize() {
   let infoWindows = new google.maps.InfoWindow();
   //Creare a marker for example: Argentina, Buenos Aires
   let marker = new google.maps.Marker({
-    position: new google.maps.LatLng(34.61315, 58.37723),
+    position: new google.maps.LatLng(-34.6037, -58.3816),
     map: map,
     title: "Argentina, Buenos Aires",
   });
 
   //Add click event listener for marker
   marker.addDomListener("click", function () {
-    infoWindow.setContent(marker.title);
+    infoWindows.setContent(marker.title);
     infoWindows.open(map, marker);
   });
 
@@ -38,3 +38,6 @@ function initialize() {
 
 //Initialize the map when windows loading finished
 google.maps.event.addDomListener(window, "load", initialize);
+
+//Initialize infoWindows variable
+infoWindows = new google.maps.InfoWindow();
